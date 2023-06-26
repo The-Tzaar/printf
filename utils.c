@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * is_printable -this function is used to evaluate whether a character is printable or not.
+ * is_printable -this function is used to evaluate
+ * whether a character is printable or not.
  * @c:This parameter represents the character to be evaluated.
  *
  * Return:function returns 1 if the character is printable, and 0 otherwise.
@@ -15,12 +16,15 @@ int is_printable(char c)
 }
 
 /**
- * append_hexa_code -this function is used to append ASCII characters in hexadecimal *code to a buffer.
- * @buffer:This parameter represents an array of characters, which likely serves 
-* as the buffer to which the hexadecimal code is appended.
+ * append_hexa_code -this function is used to append ASCII
+ * characters in hexadecimal *code to a buffer.
+ * @buffer:This parameter represents an array
+ * of characters, which likely serves
+ *  as the buffer to which the hexadecimal code is appended.
  * @i: This parameter represents the index at which to start appending
 *the hexadecimal code in the buffe
- * @ascii_code:This parameter represents the ASCII code of the character to be *appended in hexadecimal form.
+ * @ascii_code:This parameter represents the ASCII
+ * code of the character to be *appended in hexadecimal form.
  * Return:function always returns 3.
  */
 int append_hexa_code(char ascii_code, char buffer[], int i)
@@ -54,9 +58,11 @@ int is_digit(char c)
 }
 
 /**
- * convert_size_number - this function is used to cast a number to a specified size.
+ * convert_size_number - this function is used to
+ * cast a number to a specified size.
  * @num:This parameter represents the number to be casted
- * @size: This parameter represents a number indicating the type or size to which the  *number should be casted.
+ * @size: This parameter represents a number indicating the
+ * type or size to which the  *number should be casted.
  *
  * Return:function returns the casted value of num
  */
@@ -71,9 +77,11 @@ long int convert_size_number(long int num, int size)
 }
 
 /**
- * convert_size_unsgnd -this function is used to cast a number to a specified size, * *specifically an unsigned type.
+ * convert_size_unsgnd -this function is used to cast
+ * a number to a specified size, * *specifically an unsigned type.
  * @num:This parameter represents the number to be casted.
- * @size:This parameter represents a number indicating the type or size to which the *number should be casted.
+ * @size:This parameter represents a number indicating
+ * the type or size to which the *number should be casted.
  *
  * Return:function returns the casted value of num
  */

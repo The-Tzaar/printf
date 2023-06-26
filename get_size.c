@@ -1,9 +1,12 @@
 #include "main.h"
 
 /**
- * get_size -this function is responsible for calculating the size to cast the argument.
- * @format:This parameter represents a formatted string in which the arguments 
-* are to be printed. It is used as input for the function to determine the size specifier.
+ * get_size -this function is responsible for
+ * calculating the size to cast the argument.
+ * @format:This parameter represents a
+ * formatted string in which the arguments
+ * are to be printed. It is used as input for the
+ * function to determine the size specifier.
  * @i:This parameter represents an index parameter,
  *
  * Return : function returns the calculated size specifier

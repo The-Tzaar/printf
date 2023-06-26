@@ -1,11 +1,15 @@
 #include "main.h"
 
 /**
- * get_width -this function is responsible for calculating the width for printing.
- * @format:This parameter represents a formatted string in which the arguments are to
-* be printed. It serves as input for the function to determine the width.
+ * get_width -this function is responsible for
+ * calculating the width for printing.
+ * @format:This parameter represents a
+ * formatted string in which the arguments are to
+ * be printed. It serves as input for the
+ * function to determine the width.
  * @i:This parameter represents an index parameter.
- * @list:This parameter represents a list of arguments to be printed.
+ * @list:This parameter represents a
+ * list of arguments to be printed.
  *
  * Return:function returns the width of the printed output
  */

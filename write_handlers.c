@@ -2,12 +2,19 @@
 
 /************************* WRITE HANDLE *************************/
 /**
- * handle_write_char -this function is used to handle the printing of a character.
- * @c:This parameter represents the character to be printed
- * @buffer:This parameter represents the buffer array used to handle the print operation
- * @flags:This parameter represents the active flags that are used for formatting or *controlling the printing process.
- * @width:This parameter represents the width specification, which determines the *minimum field width for the printed character.
- * @precision: This parameter represents the precision specification, which specifies *the maximum number of characters to be printed.
+ * handle_write_char -this function is used to
+ * handle the printing of a character.
+ * @c:This parameter represents the
+ * character to be printed
+ * @buffer:This parameter represents the buffer
+ * array used to handle the print operation
+ * @flags:This parameter represents the active flags
+ * that are used for formatting or
+ * *controlling the printing process.
+ * @width:This parameter represents the width specification,
+ * which determines the *minimum field width for the printed character.
+ * @precision: This parameter represents the precision specification,
+ * which specifies *the maximum number of characters to be printed.
  * @size:This parameter represents the size specifier,
  *
  * Return:eturns the number of characters printed
@@ -47,12 +54,17 @@ int handle_write_char(char c, char buffer[],
 /************************* WRITE NUMBER *************************/
 /**
  * write_number -this function is used to print a number.
- * @is_negative:This parameter indicates whether the number is negative or not
- * @ind:This parameter represents the index of the number in the formatted string..
- * @buffer: This parameter represents the buffer array used to handle the print *operation.
- * @flags:This parameter represents the active flags that are used for formatting 
+ * @is_negative:This parameter indicates
+ * whether the number is negative or not
+ * @ind:This parameter represents the index
+ * of the number in the formatted string..
+ * @buffer: This parameter represents the
+ * buffer array used to handle the print *operation.
+ * @flags:This parameter represents the
+ * active flags that are used for formatting
  * @width:This parameter represents the width specification
- * @precision: This parameter represents the precision specification
+ * @precision: This parameter represents
+ * the precision specification
  * @sizeThis parameter represents the size specifier
  *
  * Return:returns the number of characters printed.
@@ -79,15 +91,22 @@ int write_number(int is_negative, int ind, char buffer[],
 }
 
 /**
- * write_num - this function is used to write a number into a buffer.
- * @ind:This parameter represents the index at which the number starts on the buffer
- * @buffer:This parameter represents the buffer array used to write the number
- * @flags:This parameter represents the flags used for formatting the number
- * @width:This parameter represents the width specification for the number.
- * @prec:This parameter represents the precision specifier for the number.
+ * write_num - this function is used to
+ * write a number into a buffer.
+ * @ind:This parameter represents the index
+ * at which the number starts on the buffer
+ * @buffer:This parameter represents the
+ * buffer array used to write the number
+ * @flags:This parameter represents the
+ * flags used for formatting the number
+ * @width:This parameter represents the
+ * width specification for the number.
+ * @prec:This parameter represents the precision
+ * specifier for the number.
  * @lengthThis parameter represents the length of the number.
  * @padd: This parameter represents the padding character
- * @extra_c: his parameter represents an extra character that may be associated with *the number
+ * @extra_c: his parameter represents an extra
+ * character that may be associated with *the number
  * Return:returns the number of characters printed
  */
 int write_num(int ind, char buffer[],
@@ -138,14 +157,22 @@ int write_num(int ind, char buffer[],
 
 /**
  * write_unsgnd -this function is used to write an unsigned number.
- * @is_negative: This parameter is a number indicating whether the number is negative *or not. 
- * @ind:This parameter represents the index at which the number starts in the buffer.
- * @buffer:This parameter represents the array of characters, which likely serves as the 
-*destination where the number will be written.
- * @flags: This parameter represents the flag specifiers used for formatting the number. 
- * @width: This parameter represents the width specifier for the number
- * @precision:This parameter represents the precision specifier for the number.
- * @size: This parameter represents the size specifier, which likely indicates the size or *data type of the number being written
+ * @is_negative: This parameter is a number indicating
+ * whether the number is negative *or not.
+ * @ind:This parameter represents the index at
+ * which the number starts in the buffer.
+ * @buffer:This parameter represents the array
+ * of characters, which likely serves as the
+ * destination where the number will be written.
+ * @flags: This parameter represents the flag
+ * specifiers used for formatting the number.
+ * @width: This parameter represents the width
+ * specifier for the number
+ * @precision:This parameter represents the
+ * precision specifier for the number.
+ * @size: This parameter represents the size specifier,
+ * which likely indicates the size or *data
+ * type of the number being written
  *
  * Return: the number of characters that were written
  */
@@ -198,13 +225,18 @@ int write_unsgnd(int is_negative, int ind,
 /**
  * write_pointer - this function is used to write a memory address
  * @buffer: This parameter represents the array of characters
- * @ind: This parameter represents the index at which the number (memory address) *starts in the buffer.
- * @length:This parameter represents the length of the number (memory address).
+ * @ind: This parameter represents the index at which
+ * the number (memory address) *starts in the buffer.
+ * @length:This parameter represents the length
+ * of the number (memory address).
  * @width:This parameter represents the width specifier for the number.
- * @flags: This parameter represents the flag specifier used for formatting the address
+ * @flags: This parameter represents the flag
+ * specifier used for formatting the address
  * @padd: This parameter represents the character used for padding
- * @extra_c:This parameter represents an extra character that may be associated with *the address. 
- * @padd_start: : This parameter represents the index at which the padding should start *in the buffer
+ * @extra_c:This parameter represents an extra character
+ * that may be associated with *the address.
+ * @padd_start: : This parameter represents the index
+ * at which the padding should start *in the buffer
  *
  * Return: the number of characters that were written..
  */
