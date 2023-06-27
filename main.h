@@ -19,22 +19,22 @@
 #define S_SHORT 1
 
 /**
- * struct fmt - It suggests that this structure is used to represent some kind of format *and associated function.
+ *struct fmt - It suggests that this structure is used to represent some kind
+ *of format *and associated function.
  *
- * @fmt:It indicates that it represents the format associated with the structure
- * @fn:. It indicates that it represents the function associated with the structure.
+ * @fmt:It indicates that it represents the format associated with
+ * the structure
+ * @fn:. It indicates that it represents the function associated with
+ * the structure.
  */
 struct fmt
 {
 	char fmt;
 	int (*fn)(va_list, char[], int, int, int, int);
 };
-
-
 /**
- * typedef struct fmt fmt_t -This line declares a typedef for the structure 
- *
- * @fmt:his member represents the format associated with the structure. 
+ * typedef struct fmt fmt_t -This line declares a typedef for the structure
+ * @fmt:his member represents the format associated with the structure
  * @fm_t:This member represents the function associated with the structure.
  */
 typedef struct fmt fmt_t;

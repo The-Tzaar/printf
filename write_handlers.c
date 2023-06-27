@@ -4,20 +4,20 @@
 /**
  * handle_write_char -this function is used to
  * handle the printing of a character.
- * @c:This parameter represents the
+ * @c: This parameter represents the
  * character to be printed
  * @buffer:This parameter represents the buffer
  * array used to handle the print operation
- * @flags:This parameter represents the active flags
+ * @flags: This parameter represents the active flags
  * that are used for formatting or
  * *controlling the printing process.
- * @width:This parameter represents the width specification,
+ * @width: This parameter represents the width specification,
  * which determines the *minimum field width for the printed character.
  * @precision: This parameter represents the precision specification,
- * which specifies *the maximum number of characters to be printed.
- * @size:This parameter represents the size specifier,
+ * which specifies the maximum number of characters to be printed.
+ * @size: This parameter represents the size specifier,
  *
- * Return:eturns the number of characters printed
+ * Return:returns the number of characters printed
  */
 int handle_write_char(char c, char buffer[],
 	int flags, int width, int precision, int size)
@@ -65,7 +65,7 @@ int handle_write_char(char c, char buffer[],
  * @width:This parameter represents the width specification
  * @precision: This parameter represents
  * the precision specification
- * @sizeThis parameter represents the size specifier
+ * @size:This parameter represents the size specifier
  *
  * Return:returns the number of characters printed.
  */
@@ -103,7 +103,7 @@ int write_number(int is_negative, int ind, char buffer[],
  * width specification for the number.
  * @prec:This parameter represents the precision
  * specifier for the number.
- * @lengthThis parameter represents the length of the number.
+ * @length:This parameter represents the length of the number.
  * @padd: This parameter represents the padding character
  * @extra_c: his parameter represents an extra
  * character that may be associated with *the number
