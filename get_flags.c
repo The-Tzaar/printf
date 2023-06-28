@@ -5,9 +5,7 @@
  * @format:This parameter represents a formatted string in which the
  * arguments are to * be printed, t is used as input for the function
  * to determine the active flags.
- * @i:This parameter represents an index parameter, likely used within
- * the function to L* *access specific elements or characters in the
- * formatted string.
+ * @i: This parameter represents an index parameter
  * Return: the function returns the calculated flags
  */
 int get_flags(const char *format, int *i)
