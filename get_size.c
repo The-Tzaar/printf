@@ -9,7 +9,7 @@
  * function to determine the size specifier.
  * @i:This parameter represents an index parameter,
  *
- * Return : function returns the calculated size specifier
+ * Return : size function returns the calculated size specifier
  */
 int get_size(const char *format, int *i)
 {
