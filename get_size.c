@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * @get_size -this function is responsible for
+ * get_size -this function is responsible for
  * calculating the size to cast the argument.
  * @format:This parameter represents a
  * formatted string in which the arguments

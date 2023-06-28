@@ -8,7 +8,7 @@
  * @i:This parameter represents an index parameter, likely used within
  * the function to L* *access specific elements or characters in the
  * formatted string.
- * Return:the function returns the calculated flags
+ * Return: the function returns the calculated flags
  */
 int get_flags(const char *format, int *i)
 {
